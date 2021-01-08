@@ -57,8 +57,8 @@ class _SampleContainerState extends State<SampleContainer>{
               style: Theme.of(context).textTheme.headline5
             ),
             Image(image: AssetImage('images/barcode.png'),
-              width: 600.0,
-              height: 500.0,
+              width: 500.0,
+              height: 400.0,
               fit: BoxFit.cover,
             ),
             ScannerButton(onPressed: () => {
